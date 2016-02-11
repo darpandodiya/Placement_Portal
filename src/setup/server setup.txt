@@ -1,0 +1,21 @@
+1. Enable the following modules in apache web server
+mod_headers
+mod_expires
+mod_deflate
+mod_filter
+
+To enlist enabled modules, use the following command:
+$ apachectl -t -D DUMP_MODULES
+
+Enable the ones not in the list using:
+$ a2enmod headers
+$ a2enmod expires
+$ a2enmod deflate
+$ a2enmod filter
+
+2. Enable the following extensions in PHP
+mcrypt
+
+If not installed, install with:
+sudo apt-get install php5-mcrypt
+

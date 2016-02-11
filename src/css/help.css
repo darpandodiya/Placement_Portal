@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#help{
+	padding:15px 25px 15px 25px;
+	border-radius:8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	margin-left: 15px;
+	margin-top:80px;
+	background-color:#FFF;
+	white-space-collapse:collapse;
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari and Chrome */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#servicestable{
+	width:50px;
+}
+
+#services{
+	width:150px;
+	text-align:center;
+	color:#000000;
+	height:180px;
+}
+
+#services:hover{
+	color:#0000AA;
+	font-weight:500;
+	font-size:18px;
+	background-color:#FFFFFF;
+	border-radius:7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	cursor:pointer;
+	-moz-box-shadow: 3px 3px 3px #888888; /* Firefox */
+	-webkit-box-shadow: 3px 3px 3px #888888; /* Safari and Chrome */
+	box-shadow: 4px 4px 4px #888888;
+
+}
+
+#down{
+	padding-top:20px;
+}

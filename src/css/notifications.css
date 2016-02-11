@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading{
+	color:#333;
+	text-align:center;
+	font-size:x-large;
+}
+
+#home {
+	text-align: center;
+	position: absolute;
+	top: 26px;
+	right: 24px;
+	font-size: large;
+}
+ 
+a{
+	text-align:center;
+	text-decoration:none;
+	color: none;
+}
+
+button{
+  
+	margin-right:50px;
+	height:30px;
+	width:70px;
+	color:#FFFFFF;
+	background-color:#0066FF;
+	border:none;
+	border-radius:3px;
+}
+
+button:hover{
+	background-color:#0055FF;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/********************/
+/* GENERAL SETTINGS */
+/********************/
+.clear {
+    clear: both;
+}
+
+
+/********************/
+/* EXPANDABLE LIST  */
+/********************/
+#listContainer{
+  margin-top:15px;
+}
+
+#pl{
+	top:10px;
+}
+
+#min{
+	display:none;
+}
+
+#expList + ul,#expList > li {
+   	text-align:left;
+	width:70%;
+	border-bottom:solid;
+	border-bottom-color:#333333;
+    list-style: none;
+    margin:0;
+	padding:8px 0 6px 0;
+    cursor: pointer;
+	background-color:#ffffff;
+}
+
+#expList > li:hover {
+    background-color:#efefef;
+	border-color:#000000;
+}
+#expList li {
+    
+    line-height:1.8em;
+	padding-left:10px;
+}
+
+#k > li{
+    vertical-align:middle;
+    width:100%;
+	list-style-image:url(../images/rightarr.png);
+}
+
+/* Collapsed state for list element */
+
+/* Expanded state for list element
+/* NOTE: This class must be located UNDER the collapsed one */
+
+#expList {
+    clear: both;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */

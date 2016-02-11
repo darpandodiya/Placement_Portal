@@ -1,0 +1,4 @@
+#Set the cache expiration age to 1 week for the image files in this directory
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>

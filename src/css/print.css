@@ -1,0 +1,64 @@
+/*!
+ * print.css v1.0.0
+ * http://printstylesheet.com/
+ *
+ * Copyright (c) 2011 David Bushell
+ * Dual licensed under the BSD or MIT licenses: http://printstylesheet.com/license.txt
+ 
+ * Author: David Bushell
+ * http://dbushell.com/
+ */
+
+/* use a media query to limit the CSS to only print devices, like a printer */
+@media only print
+{
+	/* hide every element within the body */
+	/*body { 
+    display: none !important; 
+    }*/
+    
+	/* add a friendy reminder not to waste paper after the body */
+	/*body:after { 
+        content: "Don't waste paper!"; 
+    }*/
+    body{
+        background-color:transparent;
+    }
+    #home {
+        display:none !important;
+    }
+
+    #heading {
+        margin-top:50px;
+    }
+    .addevent {
+        display:none !important;
+    }
+    
+    .eventdisplay {
+        margin-top:-20px;
+    }
+    
+    .eventtable {
+        width:900px;
+        text-align:center;
+     }
+    .whitebg {
+        -moz-box-shadow:none; /* Firefox */
+	    -webkit-box-shadow:none; /* Safari and Chrome */
+	    box-shadow:none;    
+    }
+    
+    table.eventtable tr:nth-child(even) {
+        background: #EBEBEB;
+    }
+    
+    .tableheaders {
+        background-color:#424242;
+        color:#FFFFFF;
+    }
+    
+    .resultsfoundleft {
+        display:none;
+    }
+}

@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading{
+	color:#333;
+	text-align:center;
+	font-size:x-large;
+	margin-top:35px;
+}
+
+#footer{
+	margin-top:150px;
+	position:relative;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+#selectors{
+	width:80%;
+	margin-left:10%;
+	margin-right:auto;
+	margin-top:35px;
+	height:32%;
+	overflow:auto;
+	color:#222222;
+	background:#FFFFFF;
+	border-radius:7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	-moz-box-shadow: 8px 8px 5px #AAAAAA;
+	-webkit-box-shadow: 8px 8px 5px #AAAAAA;
+	box-shadow: 8px 8px 5px #AAAAAA;
+}
+
+#first,#sec,#third{
+	float:left;
+	width:33%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:3px;
+	padding-top:4px;
+}
+
+#nm,#ht,#pc,#from1{
+	margin-top:5px;
+	float:none
+}
+
+#nm{
+	width:120px;
+}
+
+#results{
+	padding-top:35px;
+	width:91%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#from1,#to1{
+	width:55px;
+}
+
+#rem{
+	cursor:pointer;
+}
+
+.input {
+	height:35px;
+	border:none;
+	float:right;
+	margin-right:19%;
+	margin-bottom:5px;
+	border-radius:3px;
+    width: 100px;
+    font-family:OpenSans;
+    font-size:16px;
+    background-color:#0066FF;
+    color:#FFFFFF;
+}
+.input:hover {
+	background:#0045FF;
+    cursor:pointer;
+}
+
+#exports{
+	cursor:pointer;
+    text-decoration:none;
+}
+
+#exports:hover{
+	text-decoration:underline;
+}
+
+select {
+    font-family:OpenSans;
+    font-size:14px;
+    /*font-weight:bold;*/
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor:pointer;   
+}
+
+radio {
+    cursor:pointer;
+}
+
+#from1, #to1, #nm {
+    font-family:OpenSans;
+    font-size:14px;
+    /*font-weight:bold;*/
+    border-width:thin:
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor:pointer;
+}
+
+.bold {
+    color:#FFFFFF;
+    font-weight:bold;
+	padding-left:10px;
+	text-align:center;
+}
+
+.bold1 { 
+    color:#000;
+	text-align:left;
+}
+
+#havingtop{
+	width:71px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#top{
+	height:70px;
+	width:70px;
+	margin-top:20px;
+	border:none;
+	border-radius:90px;
+	background-color:#FFFFFF;
+	cursor:pointer;
+}
+#top:hover{
+	-moz-box-shadow: 3px 3px 3px #888888; /* Firefox */
+	-webkit-box-shadow: 3px 3px 3px #888888; /* Safari and Chrome */
+	box-shadow: 5px 5px 5px #999999;
+}
+
+.searchtable {
+    border-collapse:collapse;
+}
+
+table.searchtable tr:nth-child(even) {
+    background: #CCC;
+}
+
+#excel{
+	padding-left:60%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/********************/
+/* GENERAL SETTINGS */
+/********************/
+.clear {
+    clear: both;
+}
+
+
+/********************/
+/* EXPANDABLE LIST  */
+/********************/
+#listContainer{
+  margin-top:15px;
+}
+
+#pl{
+	top:10px;
+}
+
+#min{
+	display:none;
+}
+
+#expList + ul,#expList > li {
+   	text-align:left;
+	width:60%;
+	border-bottom:solid;
+	border-bottom-color:#333333;
+    list-style: none;
+    margin:0;
+	padding:8px 0 6px 0;
+    cursor: pointer;
+	background-color:#ffffff;
+}
+
+#expList > li:hover {
+    background-color:#efefef;
+	border-color:#000000;
+}
+#expList li {
+    
+    line-height:1.8em;
+	padding-left:10px;
+}
+
+#k > li{
+    vertical-align:middle;
+    width:100%;
+	list-style-image:url(../images/rightarr.png);
+}
+
+/* Collapsed state for list element */
+
+/* Expanded state for list element
+/* NOTE: This class must be located UNDER the collapsed one */
+
+#expList {
+    clear: both;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (max-width:800px){
+	#excel{
+		padding-left:55%;
+	}
+}

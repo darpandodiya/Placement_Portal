@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading{
+	color:#333;
+	text-align:center;
+	font-size:x-large;
+	margin-top:35px;
+}
+
+#footer{
+	margin-top:150px;
+	position:relative;
+}
+
+#selectors{
+	margin-top:-2%;
+	margin-bottom:2%;
+	padding-top:.35%;
+	padding-bottom:1.5%;
+	width:31%;
+	height:85%;
+	float:left;
+	overflow:auto;
+	color:#222222;
+	background:#FFFFFF;
+	position: fixed;
+	border-radius:7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+	-moz-box-shadow: 8px 8px 5px #AAAAAA; /* Firefox */
+	-webkit-box-shadow: 8px 8px 5px #AAAAAA; /* Safari and Chrome */
+	box-shadow: 8px 8px 5px #AAAAAA;
+}
+
+#results{
+	float:none;
+	margin-left:28%;
+	margin-top:10px;
+	width:71%;
+}
+
+#from1,#to1{
+	width:55px;
+}
+
+.input {
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 100px;
+    font-family:OpenSans;
+    font-size:16px;
+    font-weight:bold;
+    background-color:#0066FF;
+    color:#FFFFFF;
+}
+.input:hover {
+    border-width:2px;
+    border-color:#333;
+    color:#000;
+    cursor:pointer;
+}
+
+select {
+    font-family:OpenSans;
+    font-size:14px;
+    /*font-weight:bold;*/
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor:pointer;   
+}
+
+radio {
+    cursor:pointer;
+}
+
+#from1, #to1, #nm {
+    font-family:OpenSans;
+    font-size:14px;
+    /*font-weight:bold;*/
+    border-width:thin:
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    cursor:pointer;
+}
+
+.bold {
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.bold1 { 
+    color:#000;
+}
+
+.searchtable {
+    border-collapse:collapse;
+}
+
+table.searchtable tr:nth-child(even) {
+    background: #CCC;
+}

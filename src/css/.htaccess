@@ -1,0 +1,4 @@
+#Set the cache expiration age to 1 day for the css files in this directory
+<FilesMatch "\.css$">
+Header set Cache-Control "max-age=86400"
+</FilesMatch>

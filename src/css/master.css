@@ -1,0 +1,81 @@
+@font-face
+{
+	font-family: OpenSans;
+	src:url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: Segoe;
+	src:url(../fonts/segoeui.ttf);
+}
+
+@font-face
+{
+	font-family: Myriad;
+	src:url(../fonts/MyriadPro.otf);	
+}
+
+
+.{
+	font-family: OpenSans, Arial, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color: blue;
+}
+a:hover {
+	text-decoration:underline;
+}
+body {
+	font-family: OpenSans, Arial, sans-serif;
+	background-color:#E8E8E8;
+}
+
+#home{
+	background-color:#F5F5F5;
+	color:#000000;
+	border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	-moz-box-shadow: 8px 8px 5px #888888; /* Firefox */
+	-webkit-box-shadow: 8px 8px 5px #888888; /* Safari and Chrome */
+	box-shadow: 8px 8px 5px #888888;
+	padding-left:13px;
+	padding-right:13px;
+	position: fixed;
+	top: 10px;
+	right: 25px;
+	cursor:pointer;
+    
+    
+}
+
+#home:hover{
+	background-color: #99ffff;
+	-moz-box-shadow: 5px 5px 5px #888888; /* Firefox */
+	-webkit-box-shadow: 5px 5px 5px #888888; /* Safari and Chrome */
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#footer {
+	color: gray;
+	text-align: center;
+	font-size: 80%;
+	clear: both;
+	position:fixed;
+	bottom:10px;
+	left:0;
+	width:100%;	
+}
+#heading {
+    margin-top: 100px;   
+}
+#header {
+    top: 2px;
+    left: 2px;
+    position:fixed;
+}
+
+a img {border:none}

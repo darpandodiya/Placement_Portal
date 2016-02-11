@@ -1,0 +1,9 @@
+#DOB{
+	font-family:OpenSans;
+	padding-left:6px;
+	border-color:#333333;
+	border-radius:4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	width:70px;
+}

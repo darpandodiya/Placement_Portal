@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	text-align:left;	
+}
+body {
+	color:#3D3D3D;
+	text-align:center;
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration:none;
+}
+
+.instructions {
+	/*margin-left: 40%;*/
+	text-align: center;
+}

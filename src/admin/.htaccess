@@ -1,0 +1,4 @@
+ErrorDocument 404 /Dropbox/Placement%20Project/Source/404.php
+
+#Set default page login
+DirectoryIndex login.php

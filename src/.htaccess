@@ -1,0 +1,23 @@
+ErrorDocument 404 /Dropbox/Placement%20Project/Source/404.php
+
+#Set default page as login
+DirectoryIndex login.php
+
+#To prevent directory listings of directories and files within the directory containing the .htaccess file
+IndexIgnore *
+
+#Ensure that every file is treated as a download, rather than to be treated by the browser
+AddType application/octet-stream .pdf
+
+# compress text, html, javascript, css, xml using DEFLATE
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+Allow from 192.168.0
